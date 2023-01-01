@@ -1,0 +1,68 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 595
+  ClientWidth = 908
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnClose = FormClose
+  OnResize = FormResize
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 908.000000000000000000
+    Size.Height = 595.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object RoundRect1: TRoundRect
+    Fill.Color = claBurlywood
+    Position.X = 144.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claNull
+    OnMouseEnter = RoundRect1MouseEnter
+    OnMouseLeave = RoundRect1MouseLeave
+  end
+  object Popup1: TPopup
+    Position.X = 432.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 305.000000000000000000
+    Size.Height = 313.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    OnPopup = Popup1Popup
+    OnPaint = Popup1Paint
+    OnResized = Popup1Resized
+    object StringGrid1: TStringGrid
+      Align = Client
+      CanFocus = True
+      ClipChildren = True
+      Size.Width = 305.000000000000000000
+      Size.Height = 313.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Options = [ColumnResize, ColumnMove, ColLines, RowLines, Tabs, Header, HeaderClick, AutoDisplacement]
+      Viewport.Width = 305.000000000000000000
+      Viewport.Height = 313.000000000000000000
+      object StringColumn1: TStringColumn
+      end
+      object StringColumn2: TStringColumn
+      end
+    end
+  end
+  object StyleBook1: TStyleBook
+    Styles = <
+      item
+      end>
+    Left = 440
+    Top = 280
+  end
+end

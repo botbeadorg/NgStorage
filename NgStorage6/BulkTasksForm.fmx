@@ -1,0 +1,41 @@
+object Form7: TForm7
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = Single
+  Caption = #25209#37327#20219#21153#19979#21457
+  ClientHeight = 515
+  ClientWidth = 866
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object StyleBook1: TStyleBook
+    Styles = <
+      item
+      end>
+    Left = 600
+    Top = 216
+  end
+  object ScrollBox1: TScrollBox
+    Position.X = 40.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 745.000000000000000000
+    Size.Height = 433.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 745.000000000000000000
+    Viewport.Height = 433.000000000000000000
+    object Layout1: TLayout
+      Position.X = 40.000000000000000000
+      Position.Y = 40.000000000000000000
+      Size.Width = 673.000000000000000000
+      Size.Height = 337.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+  end
+end

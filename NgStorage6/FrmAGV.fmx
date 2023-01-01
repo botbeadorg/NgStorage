@@ -1,0 +1,265 @@
+object Frame1: TFrame1
+  Align = Client
+  Size.Width = 1121.000000000000000000
+  Size.Height = 678.000000000000000000
+  Size.PlatformDefault = False
+  object ColorButton1: TColorButton
+    Color = claBlueviolet
+    Margins.Left = 5.000000000000000000
+    Margins.Top = 5.000000000000000000
+    Margins.Right = 5.000000000000000000
+    Margins.Bottom = 5.000000000000000000
+    Position.X = 48.000000000000000000
+    Position.Y = 157.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 108.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    OnClick = ColorButton1Click
+    object ShadowEffect1: TShadowEffect
+      Distance = 1.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.500000000000000000
+      Opacity = 0.300000011920929000
+      ShadowColor = claBlack
+    end
+    object Text1: TText
+      Align = Right
+      HitTest = False
+      Margins.Right = 15.000000000000000000
+      Position.X = 100.000000000000000000
+      Size.Width = 54.000000000000000000
+      Size.Height = 108.000000000000000000
+      Size.PlatformDefault = False
+      Text = #23567#36710'1'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claAliceblue
+    end
+    object Image1: TImage
+      MultiResBitmap.Height = 64
+      MultiResBitmap.Width = 64
+      MultiResBitmap = <
+        item
+          Width = 64
+          Height = 64
+          PNG = {
+            89504E470D0A1A0A0000000D4948445200000040000000400806000000AA6971
+            DE000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            055749444154785EED9B5F681C451CC767F7CE6CAE496393D8AAA97F5030890A
+            3E68AD50155B8C188979F1A92A2811A4A0F55D83365A7D51145F8AA0A0BE2822
+            3E88C46AC1222D41C1A805115AAD0F7D10621BC9E5CC99DB6CDCDCFAFB4D678E
+            B9CDECFF9DDD13F703D3DFCCDCDDCCFCBEF3DBF9ED6DAEA4A0A0A0A0A0E0FF8B
+            C66C64FAFAC8EDF53A7991354353D2C849BB495E63CDD4300C326659E4386B86
+            26B200BA461A4D875458330D626F8280C36CE4B1A27E804FA4822442C4162034
+            30F2593038516A22603481E163261937F6E7A328C62750A1B2B8F838E3C75E9B
+            CE6CDE880B8FB59371092540A54C76B3AA4A544456209D12016E328B824E1320
+            F328E8D40820BA4E7E6255A574A200340A9A4D720B6D29A6632300C1DB6D56CD
+            179605F060CAE470322ED15E0613653EB56BCB5A004694F962AF2DCE25E0C001
+            35C7EA59A054F45867001C507781496D61F0D572279C7CEFB02627971B2329E2
+            25303C3CCCC38D9744045C5EB43F444A8CBD96C81130323242262727592B19E8
+            BC6993EFB0AE69E402ED6C47794ACC2D0DBA9D771C72057DC103552931170144
+            E71170FEF2AE2E72236BB60129F115B42B2B649E76A44C2E02883B0F31FE1BD6
+            D7D7C9699908D63FCE0BACAA8496007B6F2D4D80E187495B11772B2D78D8C304
+            C3A208EC50F402D7932A54801DFDDAF7274E6D7C4E7BB24113AF795104145B22
+            82B2944805585C7676A17DF380515DFFE42AE22E3F1E19ACE2EB326EDA4E7A59
+            3511540496093C44A0A4FD2D51EFDFAA35599D3C3DB67D805503D13562A23DFD
+            27A983A1978AAB4406A3C247042529515FAE3B7460DCE9284C3C385901F1FC1C
+            552102E5D29ED2BDAC9A18749E2ED44F809F2F98D5DB0E2ED1E8087313343B3B
+            4B2D5C1E5B2142FEA68D888008E7313D621D44B803C498C76F8990159EA76F68
+            3F17B8D891CF0AA569F0DC8A3EC5AA91914582AA9488EA292963BBCA87C00682
+            59088C748C80C271B74393CB8D90C8A0A1557916CA83D619607DDB8326158C3D
+            ABD44204CC1CFFC13E4C1B12D0F925CBE9C7FACC4CC599BE1F724B08F8F8007F
+            3FDFFDCE3A03FC80959E8DE37CDAE422003A0F5B7603D665CEBFF1815D7D6CC6
+            AA7D7A72E317D6A58CCC05F0727E685F6319431BCBF45BD6C0C75FD9DBF63FB7
+            36CAFBDEFD6CE31CBE2F6D940AD0749CDED16BC895BC78398F0EF2CB81532E69
+            6DB7DF4FBDBA761DBE2F6D7001CA0E412FDCCE73BCD670F4845D7D68DA92DDA6
+            D33180D887A01201102F11A23A2F2219331B01EAEB8E75D9DE86C19A2DC00DD3
+            FCA627D6EF8596961D7368A2413F2BCE2D13CEE7F5C402049E01774FADD564CE
+            23F86329AF9D0E823BFFE878798176005E63C59D230CBE027C7DCAAECDFFBAB1
+            0DEBBB474A35DC09B170922CF0BD43C610DAABC7CD9610B239300AD19EF9C8A8
+            D18E94F015E081831675FEA527CB0B73EF77D3BA88B8404C63AC1A8BC5952615
+            421C13B96F4FE93CDA1DFB1AF4B9C5F5D79637AD23092D01FC76F1D9A98BBB74
+            CF81B53FF07DE27BF982DD69ECBF82FB10D904E6E3D5B92D3405B945E2CE27B9
+            04F8187809C8A2808FBD70748B39D8AF55C4C313085C7F103C023C4FCF815EB2
+            C8AA4A78E2B045AFFDDF8F55A8F3088F325158741E2D77BE5C265FA04D8A7806
+            A008ADD2D777F151D4E25FCE285A375F1E911E466D63F8157C5A04967C78CC6E
+            39EEBEFE39B27EDB26F8189F239D234CC17FFC08BC47A8DCB96A0ABF1D0E1ACF
+            4D2B74FDE6E0F088C02745E263F524F86601FE484A0C45919BC7CD24CE23ADCF
+            78CD81603A165F4FCBF9B0E02EF9969E6EF230D8246C1A130EDF25593F94ECC1
+            27B460648BC1920AEC0F1EB2F16981507D046CBE40ACEF2C69E4F58AA13FC3BA
+            94D0DDAD3FDE55226FE37F82605D050505050505056943C8BF25A748D4C4F562
+            FB0000000049454E44AE426082}
+          FileName = 'F:\ProjRadStudio20\NgStorage5\forklift0.png'
+        end>
+      Align = Left
+      HitTest = False
+      Margins.Left = 20.000000000000000000
+      Position.X = 20.000000000000000000
+      Size.Width = 54.000000000000000000
+      Size.Height = 108.000000000000000000
+      Size.PlatformDefault = False
+      object ShadowEffect7: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+      object FloatAnimation2: TFloatAnimation
+        AnimationType = Out
+        Duration = 0.400000005960464500
+        OnFinish = FloatAnimation2Finish
+        PropertyName = 'Position.X'
+        StartValue = 0.000000000000000000
+        StartFromCurrent = True
+        StopValue = 5.000000000000000000
+      end
+    end
+  end
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 1121.000000000000000000
+    Size.Height = 678.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    object GridLayout1: TGridLayout
+      Align = Left
+      ItemHeight = 64.000000000000000000
+      ItemWidth = 64.000000000000000000
+      Orientation = Horizontal
+      Size.Width = 265.000000000000000000
+      Size.Height = 678.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+    object GridPanelLayout1: TGridPanelLayout
+      Align = Client
+      Margins.Left = 10.000000000000000000
+      Size.Width = 846.000000000000000000
+      Size.Height = 678.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      ColumnCollection = <
+        item
+          Value = 100.000000000000000000
+        end>
+      ControlCollection = <
+        item
+          Column = 0
+          Control = StringGrid1
+          Row = 1
+        end
+        item
+          Column = 0
+          Control = ScrollBox1
+          Row = 0
+        end>
+      RowCollection = <
+        item
+          Value = 69.999999999999960000
+        end
+        item
+          Value = 30.000000000000040000
+        end
+        item
+          SizeStyle = Auto
+        end>
+      object StringGrid1: TStringGrid
+        Align = Client
+        CanFocus = True
+        ClipChildren = True
+        Size.Width = 846.000000000000000000
+        Size.Height = 203.399993896484400000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Viewport.Width = 842.000000000000000000
+        Viewport.Height = 178.400000000000000000
+      end
+      object ScrollBox1: TScrollBox
+        Anchors = []
+        Position.X = 54.000000000000000000
+        Position.Y = 54.300003051757810000
+        Size.Width = 738.000000000000000000
+        Size.Height = 366.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        OnDblClick = ScrollBox1DblClick
+        OnMouseUp = ScrollBox1MouseUp
+        Viewport.Width = 738.000000000000000000
+        Viewport.Height = 366.000000000000000000
+        object Layout2: TLayout
+          Position.X = 64.000000000000000000
+          Position.Y = 32.000000000000000000
+          Size.Width = 602.000000000000000000
+          Size.Height = 302.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+      end
+    end
+  end
+  object Circle1: TCircle
+    Fill.Color = claWhite
+    Position.X = 304.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claNull
+    OnClick = Circle1Click
+    OnDblClick = Circle1DblClick
+    OnMouseDown = Circle1MouseDown
+    OnMouseUp = Circle1MouseUp
+  end
+  object Rectangle1: TRectangle
+    Fill.Color = claAzure
+    Position.X = 232.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claNull
+    OnClick = Rectangle1Click
+  end
+  object Label1: TLabel
+    Position.X = 240.000000000000000000
+    Position.Y = 144.000000000000000000
+    Text = 'Label1'
+    Visible = False
+    TabOrder = 11
+  end
+  object Line1: TLine
+    HitTest = False
+    LineType = Diagonal
+    Opacity = 0.699999988079071000
+    Position.X = 280.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claWhite
+    Stroke.Thickness = 3.000000000000000000
+    Visible = False
+  end
+  object Text2: TText
+    Position.X = 512.000000000000000000
+    Position.Y = 408.000000000000000000
+    TextSettings.FontColor = claLawngreen
+    OnClick = Text2Click
+  end
+  object Text3: TText
+    Position.X = 624.000000000000000000
+    Position.Y = 416.000000000000000000
+    TextSettings.FontColor = claWhite
+    OnClick = Text3Click
+  end
+  object PopupMenu1: TPopupMenu
+    Left = 432
+    Top = 336
+    object MenuItem1: TMenuItem
+      Text = #25209#37327#20219#21153
+      OnClick = MenuItem1Click
+    end
+  end
+end

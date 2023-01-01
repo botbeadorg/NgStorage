@@ -1,0 +1,47 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = ToolWindow
+  Caption = #35686#21578#65281
+  ClientHeight = 193
+  ClientWidth = 571
+  Position = MainFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Text1: TText
+    Align = Top
+    Size.Width = 571.000000000000000000
+    Size.Height = 129.000000000000000000
+    Size.PlatformDefault = False
+    Text = #20320#30830#23450#35201#21024#38500#35813#24211#20301#19978#30340#20135#21697#20449#24687#21527#65311
+    TextSettings.Font.Family = 'Microsoft YaHei UI'
+    TextSettings.Font.Size = 24.000000000000000000
+    TextSettings.FontColor = claWhitesmoke
+    TextSettings.WordWrap = False
+  end
+  object Button1: TButton
+    Position.X = 88.000000000000000000
+    Position.Y = 152.000000000000000000
+    TabOrder = 2
+    Text = #21542
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Position.X = 392.000000000000000000
+    Position.Y = 152.000000000000000000
+    TabOrder = 1
+    Text = #26159
+    OnClick = Button2Click
+  end
+  object StyleBook1: TStyleBook
+    Styles = <
+      item
+      end>
+    Left = 527
+    Top = 157
+  end
+end

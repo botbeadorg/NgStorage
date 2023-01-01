@@ -1,0 +1,101 @@
+object Form6: TForm6
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = ToolWindow
+  Caption = 'Form6'
+  ClientHeight = 206
+  ClientWidth = 612
+  Position = MainFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object StyleBook1: TStyleBook
+    Styles = <
+      item
+      end>
+    Left = 399
+    Top = 121
+  end
+  object Button1: TButton
+    Position.X = 488.000000000000000000
+    Position.Y = 128.000000000000000000
+    TabOrder = 8
+    Text = #30830#23450
+    OnClick = Button1Click
+  end
+  object ComboBox4: TComboBox
+    Items.Strings = (
+      '- '#20844#21496' -')
+    ItemIndex = 0
+    Position.X = 456.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object ComboBox3: TComboBox
+    Items.Strings = (
+      '- '#20869#21253#35013' -')
+    ItemIndex = 0
+    Position.X = 320.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+  object ComboBox2: TComboBox
+    Items.Strings = (
+      '- '#35268#26684' -')
+    ItemIndex = 0
+    Position.X = 184.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+  end
+  object ComboBox1: TComboBox
+    Items.Strings = (
+      '- '#22806#21253#35013' -')
+    ItemIndex = 0
+    Position.X = 48.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+  end
+  object ColorComboBox1: TColorComboBox
+    DropDownKind = Custom
+    Color = claNull
+    DisableFocusEffect = False
+    ItemIndex = 147
+    Position.X = 48.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+  end
+  object StatusBar1: TStatusBar
+    Position.Y = 184.000000000000000000
+    ShowSizeGrip = True
+    Size.Width = 612.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    object Label1: TLabel
+      Align = Left
+      Size.Width = 233.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+  end
+end

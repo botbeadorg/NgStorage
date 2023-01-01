@@ -1,0 +1,332 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'NgStorage'
+  ClientHeight = 602
+  ClientWidth = 1341
+  Position = DesktopCenter
+  Quality = HighPerformance
+  StyleBook = StyleBook1
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnKeyUp = FormKeyUp
+  DesignerMasterStyle = 0
+  object ToolBar1: TToolBar
+    Margins.Bottom = 7.000000000000000000
+    Size.Width = 1341.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object CornerButton6: TCornerButton
+      Align = Left
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 5.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 80.000000000000000000
+      Size.Height = 31.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = #23618'1'
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+    end
+    object CornerButton7: TCornerButton
+      Align = Left
+      CanFocus = False
+      HitTest = False
+      Margins.Left = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 5.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = #36864#20986
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+    end
+    object Image1: TImage
+      MultiResBitmap.Height = 40
+      MultiResBitmap.Width = 40
+      MultiResBitmap = <
+        item
+          Width = 40
+          Height = 40
+          PNG = {
+            89504E470D0A1A0A0000000D49484452000000280000002808060000008CFEB8
+            6D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            029D494441545847CD99316FD34014C7CF4E5B756285560A031416241081B0A0
+            A681AA121B7C03F8064C8809DC880931F10DE023C084844029110B45455462A1
+            81A1162D8C65AA4A6DE3FFF3BD9393D4F6B9E738FE4991EFB955FDD35DFCEEDE
+            AB250CA8AFAEDFB5ACDA0B191E491078F7DCD5E64B19E626B760DDF9FCC9B2ED
+            A60C89F6B939B178F6948C22D6FABBE243FFB78C2202DF5F773B57AFC9500B6D
+            C1BAB37168D9A286F1D2C29C682D0C0A65F1FEFB8EF8F8F30F8D035F786EA731
+            4541065A82A73B1B01AE8F6E5DA6D894276FBED075DB69643E3FF517586C76BA
+            261E2C5FA47B45F1F4ED5771E0F9344E134DFC41D1B39644D66C1E79B32C3926
+            4D72E446D9724C92A42DAF03942D07929E392088D9C30B3129666AB65A414609
+            22CFE15AF4DB9A87872B97E8CA2E400922099B2EEDDFFD03FA980007DE100009
+            62FBA2C890E7DD6FF42902762241ECADED70FBAA0AD7CF9C24278CD5122FE6DC
+            5BC7C9CDF3F372140ACE87472639AE1C70B3A732CE7393046EB4C438CF558D96
+            3C5F92E0F061B30A2CC949B390B975F31F729C691AB9DFBE204ECCCEC8281DEC
+            CFEA2DAE2AB966300B3E9114F9F768067B3F068B9B2AC04E24D8DDDAA5A04AB0
+            937D18D6AD34AA208115DCB6770C8AEA71E33EBEF25ABDC5BDA1227B92C45D48
+            10157FB75F9DEF215CC28AB487B12A508A48377C58D54DC44920BD70F1A49618
+            ED08CE63C7056245C88545C9E8919F7B25CFDE6D523C09F8D9AED398A6418812
+            0498D6FD7F9E8CCA07CFD6AA8B4D97FA3844CFDC8B9A3531463A0B806BD3A2F6
+            D42C7842B45A1F4C59926972205110B0E438DA6F7821A2EFFB9EBFEDDC486C67
+            A40A3245CF66D6ACC5D11204A62D60F4ABD1B706C873F1549286B620A3DB44C7
+            796EF81887EDEB57A7D192A116B905E368FD1B4278775CA7F94A863911E23F44
+            C713BD96FD0BD00000000049454E44AE426082}
+          FileName = 'F:\ProjRadStudio20\NgStorage5\plus.png'
+        end>
+      Align = Right
+      Margins.Right = 5.000000000000000000
+      Position.X = 1309.000000000000000000
+      Size.Width = 27.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Image1Click
+      object FloatAnimation1: TFloatAnimation
+        Duration = 0.150000005960464500
+        PropertyName = 'RotationAngle'
+        StartValue = 0.000000000000000000
+        StopValue = 90.000000000000000000
+        Trigger = 'IsMouseOver=true'
+        TriggerInverse = 'IsMouseOver=false'
+      end
+    end
+    object Image2: TImage
+      MultiResBitmap.Height = 40
+      MultiResBitmap.Width = 40
+      MultiResBitmap = <
+        item
+          Width = 40
+          Height = 40
+          PNG = {
+            89504E470D0A1A0A0000000D49484452000000280000002808060000008CFEB8
+            6D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            027C494441545847D599316FD34014C7CF4E5B756285560A03B42C484504C282
+            9AA620A46EE51BC03760429D8A1B312126BE017C04989010282562A15511482C
+            103AD4A285B14C555BDBF8FF7CEFE4A4B57D26897DFC96BBE744BA9FEEE2BB7B
+            2F961880EADAC63DCBAA3C97E1A9048177DF5DABBF90616E720B569DCD8F966D
+            D765483467A7C4FCC573328A58EFEE89F7DD5F328A087C7FC36D5DBF21432DB4
+            05ABCED6B1658B0AFA0B3353A231D32B94C5BB6FBBE2C3F66FEA07BEF0DC566D
+            8C820CB404CFB7B602B4AB4B57291E94C7AF3F51BBE3D432C74FFD028B4D8E57
+            C4C3DB73F46C583C79F3591C7A3EF5D344133F18F6AC2591359BA73E2C4A8E49
+            933CF1A068392649D2966D0F45CB81A4317B04317B7821CA62A262AB15649420
+            F639B4C37E5BF3B072E70AB5EC02942036E13296B61F38F081004810C7174506
+            C14E2488B3B5191E5FA670F3C25972425F2DF17CCEB37594DCBA342D7BA1E074
+            7865927DE3809B3D96719F2B13B8D112E33E671A0D79BF24C1FECBA6092CC849
+            B3B073EBEE7F7F0E0EC5B3F65719FD1B0F9A97C599C90919A583F359BDC5A692
+            6B068B46CD60E7476F726302EC4482EDEF7B1498043BD9C761DE4A3D0309AC60
+            D9DE1D20A91E35EEA36BAFD45BDCE94BB2CB24EE4282C8F8DB5D737E87700933
+            D20EFA2498B71C51043F5BB5065AB5C42847706655267008939293577EAE953C
+            7DFB85E232E0B15DA7364E9D10250890931E1C79322A1E8CAD951797B1D4D198
+            FB51B126C6FF57FA608A924C93038982802547517EC30B11FDDEF7FD1D6731B1
+            9C912AC80C7B36B3662D8E962018B4048C7A35EAD600FB5C7C2B49435B90D12D
+            A2E33ED77F8DC3F1C527842EB905E368FD0D21BCBBAE537F29C39C08F11703B9
+            00160C111EE50000000049454E44AE426082}
+          FileName = 'F:\ProjRadStudio20\NgStorage5\minus.png'
+        end>
+      Align = Right
+      Margins.Right = 5.000000000000000000
+      Position.X = 1277.000000000000000000
+      Size.Width = 27.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Image2Click
+      object FloatAnimation2: TFloatAnimation
+        Duration = 0.150000005960464500
+        PropertyName = 'RotationAngle'
+        StartValue = 0.000000000000000000
+        StopValue = 90.000000000000000000
+        Trigger = 'IsMouseOver=true'
+        TriggerInverse = 'IsMouseOver=false'
+      end
+    end
+    object CornerButton9: TCornerButton
+      Align = Right
+      Margins.Top = 7.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 7.000000000000000000
+      Position.X = 1187.000000000000000000
+      Position.Y = 7.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 80.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'S0'#36873#21306
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = CornerButton9Click
+    end
+    object ComboBox1: TComboBox
+      Align = Left
+      CanFocus = False
+      Items.Strings = (
+        '- '#36873#25321#20219#21153#31867#22411' -'
+        #19968#23618#20837#24211
+        #20108#23618#20837#24211
+        #19968#23618#20986#24211
+        #20108#23618#20986#24211
+        #19968#23618#35843#36135
+        #20108#23618#35843#36135
+        #19968#23618#35843#36135#33267#20108#23618
+        #20108#23618#35843#36135#33267#19968#23618
+        #20805#30005
+        #21319#33267#20108#23618#24211#20301
+        #38477#33267#19968#23618#24211#20301)
+      ItemIndex = 0
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 7.000000000000000000
+      Margins.Bottom = 7.000000000000000000
+      Position.X = 110.000000000000000000
+      Position.Y = 7.000000000000000000
+      Size.Width = 115.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      OnChange = ComboBox1Change
+    end
+    object Edit2: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Left
+      TabOrder = 4
+      CanFocus = False
+      ReadOnly = True
+      TextSettings.FontColor = claCoral
+      Position.X = 326.000000000000000000
+      Position.Y = 7.000000000000000000
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 7.000000000000000000
+      Margins.Bottom = 7.000000000000000000
+      Size.Width = 91.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = #32467#28857
+      StyledSettings = [Family, Size, Style]
+      OnChange = Edit1Change
+    end
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Left
+      TabOrder = 5
+      CanFocus = False
+      ReadOnly = True
+      TextSettings.FontColor = claCoral
+      Position.X = 230.000000000000000000
+      Position.Y = 7.000000000000000000
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 7.000000000000000000
+      Margins.Bottom = 7.000000000000000000
+      Size.Width = 91.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = #36215#28857
+      StyledSettings = [Family, Size, Style]
+      OnChange = Edit1Change
+    end
+    object SpeedButton1: TSpeedButton
+      Align = Left
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 422.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 31.000000000000000000
+      Size.PlatformDefault = False
+      Text = #25191#34892
+      OnClick = SpeedButton1Click
+    end
+    object CornerButton1: TCornerButton
+      Align = Left
+      CanFocus = False
+      HitTest = False
+      Margins.Left = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Position.X = 507.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 5.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = #36864#20986
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+    end
+    object CornerButton2: TCornerButton
+      Align = Left
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 7.000000000000000000
+      Margins.Bottom = 7.000000000000000000
+      Position.X = 589.000000000000000000
+      Position.Y = 7.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 80.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 8
+      Text = #20219#21153#21015#34920
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = CornerButton2Click
+    end
+    object CheckBox1: TCheckBox
+      Align = Left
+      IsChecked = True
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 7.000000000000000000
+      Margins.Bottom = 7.000000000000000000
+      Position.X = 522.000000000000000000
+      Position.Y = 7.000000000000000000
+      Size.Width = 62.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 10
+      Text = #33258#21160
+    end
+  end
+  object StyleBook1: TStyleBook
+    Styles = <
+      item
+      end>
+    Left = 600
+    Top = 216
+  end
+  object StatusBar1: TStatusBar
+    Position.Y = 580.000000000000000000
+    ShowSizeGrip = True
+    Size.Width = 1341.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    object Label1: TLabel
+      Align = Left
+      Margins.Left = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+    object Label2: TLabel
+      Align = Left
+      Position.X = 125.000000000000000000
+      Size.Width = 196.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+    end
+  end
+end

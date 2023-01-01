@@ -1,0 +1,97 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = #20219#21153#21015#34920
+  ClientHeight = 466
+  ClientWidth = 1137
+  Position = MainFormCenter
+  Quality = HighPerformance
+  StyleBook = StyleBook1
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object StyleBook1: TStyleBook
+    Styles = <
+      item
+      end>
+    Left = 656
+    Top = 224
+  end
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 1038.000000000000000000
+    Size.Height = 466.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object StringGrid1: TStringGrid
+      Align = Client
+      CanFocus = True
+      ClipChildren = True
+      Size.Width = 1038.000000000000000000
+      Size.Height = 466.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      OnApplyStyleLookup = StringGrid1ApplyStyleLookup
+      Viewport.Width = 1018.000000000000000000
+      Viewport.Height = 441.000000000000000000
+      object StringColumn1: TStringColumn
+      end
+      object StringColumn2: TStringColumn
+      end
+      object StringColumn3: TStringColumn
+      end
+      object StringColumn4: TStringColumn
+      end
+      object StringColumn5: TStringColumn
+      end
+      object StringColumn6: TStringColumn
+      end
+      object StringColumn7: TStringColumn
+      end
+      object StringColumn8: TStringColumn
+      end
+      object StringColumn9: TStringColumn
+      end
+    end
+  end
+  object Layout2: TLayout
+    Align = Right
+    Position.X = 1038.000000000000000000
+    Size.Width = 99.000000000000000000
+    Size.Height = 466.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object Button1: TButton
+      StyledSettings = [Size, Style, FontColor]
+      Position.X = 8.000000000000000000
+      Position.Y = 32.000000000000000000
+      TabOrder = 0
+      Text = #21024#38500
+      TextSettings.Font.Family = '(Default)'
+    end
+  end
+  object GradientAnimation1: TGradientAnimation
+    Duration = 0.200000002980232200
+    PropertyName = 'Fill.Gradient'
+    StartValue.Points = <
+      item
+        Color = claBlack
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    StopValue.Points = <
+      item
+        Color = claBlack
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+  end
+end
